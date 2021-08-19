@@ -1,0 +1,242 @@
+<main class="main-container">
+  <app-header [headerTitle]="'Dashboard'"></app-header>
+  <div class="scene">
+    <!-- Card -->
+    <div class="card">
+      <!-- Card front -->
+      <div class="card__front">
+        <img src="/assets/images/visa-logo.svg" class="card__logo float-end" />
+        <span class="card__holder__name">Ravikumar</span>
+        <span class="card__number">1234 5678 9000</span>
+        <div style="bottom: 1rem; position: absolute">
+          <span class="balance__title">Balance</span>
+          <span class="balance__amount">Rp2.300.000</span>
+        </div>
+      </div>
+      <!-- Card back -->
+      <div class="card__back">
+        <div class="card__stripe"></div>
+        <div class="card__signature">
+          <span class="card__cvv">CVV</span>
+          <span class="card__cvv-number">239</span>
+        </div>
+        <p class="card__info">
+          Using this card to purchase goods and services whenever you see the
+          VISA symbol. Your use of this card is acceptance to your issuer's
+          arragements including amendments.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex mt-5 justify-content-between">
+    <span class="d-flex flex-column justify-content-center align-items-center">
+      <span class="info-icon sent_btn">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 32 32"
+          fill="#543e64"
+        >
+          <path
+            d="M27.414 12.586l-10-10c-0.781-0.781-2.047-0.781-2.828 0l-10 10c-0.781 0.781-0.781 2.047 0 2.828s2.047 0.781 2.828 0l6.586-6.586v19.172c0 1.105 0.895 2 2 2s2-0.895 2-2v-19.172l6.586 6.586c0.39 0.39 0.902 0.586 1.414 0.586s1.024-0.195 1.414-0.586c0.781-0.781 0.781-2.047 0-2.828z"
+          ></path>
+        </svg>
+      </span>
+      <span class="btn-style mt-2">Sent</span>
+    </span>
+    <span class="d-flex flex-column justify-content-center align-items-center">
+      <span class="info-icon receive-btn">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 32 32"
+          fill="#543e64"
+        >
+          <path
+            d="M27.414 19.414l-10 10c-0.781 0.781-2.047 0.781-2.828 0l-10-10c-0.781-0.781-0.781-2.047 0-2.828s2.047-0.781 2.828 0l6.586 6.586v-19.172c0-1.105 0.895-2 2-2s2 0.895 2 2v19.172l6.586-6.586c0.39-0.39 0.902-0.586 1.414-0.586s1.024 0.195 1.414 0.586c0.781 0.781 0.781 2.047 0 2.828z"
+          ></path>
+        </svg>
+      </span>
+      <span class="btn-style mt-2">Receive</span>
+    </span>
+    <span class="d-flex flex-column justify-content-center align-items-center">
+      <span class="info-icon more-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-grid"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"
+          />
+        </svg>
+      </span>
+      <span class="btn-style mt-2">More</span>
+    </span>
+  </div>
+
+  <div class="mt-4 mb-4 transcation__label">
+    Last Transcation
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="25"
+      height="25"
+      fill="#c2ac66"
+      class="bi bi-cash-stack"
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+      />
+      <path
+        d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"
+      />
+    </svg>
+  </div>
+  <div class="mt-2 d-flex justify-content-between filter-btn-group">
+    <input
+      type="radio"
+      class="btn-check"
+      name="options"
+      id="option1"
+      value="All"
+      [(ngModel)]="options"
+      (ngModelChange)="applyFilter($event)"
+      autocomplete="off"
+    />
+    <label class="btn btn-secondary filter-btn rounded-pill" for="option1"
+      >All</label
+    >
+
+    <input
+      type="radio"
+      class="btn-check"
+      name="options"
+      id="option2"
+      value="Shopping"
+      [(ngModel)]="options"
+      (ngModelChange)="applyFilter($event)"
+      autocomplete="off"
+    />
+    <label class="btn btn-secondary filter-btn rounded-pill" for="option2"
+      >Shopping</label
+    >
+
+    <input
+      type="radio"
+      class="btn-check"
+      name="options"
+      id="option3"
+      value="Transfer"
+      [(ngModel)]="options"
+      (ngModelChange)="applyFilter($event)"
+      autocomplete="off"
+    />
+    <label class="btn btn-secondary filter-btn rounded-pill" for="option3"
+      >Transfer</label
+    >
+
+    <input
+      type="radio"
+      class="btn-check"
+      name="options"
+      id="option4"
+      value="Subscription"
+      [(ngModel)]="options"
+      (ngModelChange)="applyFilter($event)"
+      autocomplete="off"
+    />
+    <label class="btn btn-secondary filter-btn rounded-pill" for="option4"
+      >Subscription</label
+    >
+  </div>
+
+  <div class="mt-2 transcation__list">
+    <ng-container *ngFor="let item of filteredTranscation">
+      <div class="d-flex pt-3 pb-3 transcation-border">
+        <span
+          *ngIf="item['product_type'] == 'Food & Bav.'"
+          class="border rounded-circle p-3 food-bg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-cup-straw"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A.78.78 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278zM9.768 4.607A13.991 13.991 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a5.514 5.514 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69 1.27 0 2.081-.441 2.438-.69.042-.029.09-.094.102-.215l.852-8.03a5.517 5.517 0 0 1-.435.127 8.88 8.88 0 0 1-.89.17zM4.467 4.884s.003.002.005.006l-.005-.006zm7.066 0-.005.006c.002-.004.005-.006.005-.006zM11.354 5a3.174 3.174 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222z"
+            />
+          </svg>
+        </span>
+        <span
+          *ngIf="item['product_type'] == 'Shopping'"
+          class="border rounded-circle p-3 shopping-bg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-basket"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"
+            />
+          </svg>
+        </span>
+        <span
+          *ngIf="item['product_type'] == 'Subscription'"
+          class="border rounded-circle p-3 subscription-bg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-phone-vibrate"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z"
+            />
+            <path
+              d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z"
+            />
+          </svg>
+        </span>
+        <span
+          class="
+            d-flex
+            justify-content-between
+            ps-3
+            w-100
+            fw-bold
+            transcation__list__item
+          "
+        >
+          <span class="d-flex flex-column justify-content-around">
+            <span>
+              {{ item["product_name"] }}
+            </span>
+            <span class="transcation__list__item_time">
+              {{ item["time"] }}
+            </span>
+          </span>
+          <span>{{ item["amount"] }}</span>
+        </span>
+      </div>
+    </ng-container>
+  </div>
+</main>
