@@ -266,3 +266,7 @@ ul {
   background-color: #41a3ff;
   border-color: #41a3ff;
 }
+
+.btn-check:focus + .btn-secondary, .btn-secondary:focus{
+  box-shadow: none;
+}
