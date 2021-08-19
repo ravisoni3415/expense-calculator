@@ -1,5 +1,37 @@
 # ExpenseCalculator
 
+Project stack : Angular 12, Typescript, Bootstrap 5, amChart.
+
+**Live demo here 👉 https://expense-calculator3415.netlify.app/ **
+
+**Features**
+
+1. Mobile layout
+2. View account balance
+3. Transcation history
+4. View income and expense status on pie chart
+5. Expenses breakdown
+
+**Screenshots**
+
+1. Dashboard tab view
+![](src/assets/screenshots/view_1.jpg)
+![](src/assets/screenshots/view_2.jpg)
+
+2. Card back view
+![](src/assets/screenshots/view_3.jpg)
+
+3. Taranscation filter
+![](src/assets/screenshots/view_4.jpg)
+![](src/assets/screenshots/view_5.jpg)
+
+4. Statistic tab view
+![](src/assets/screenshots/view_6.jpg)
+![](src/assets/screenshots/view_7.jpg)
+
+5. Expense breakdown
+![](src/assets/screenshots/view_8.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
