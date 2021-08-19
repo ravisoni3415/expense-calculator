@@ -15,22 +15,22 @@ Project stack : Angular 12, Typescript, Bootstrap 5, amChart.
 **Screenshots**
 
 1. Dashboard tab view
-![](src/assets/screenshots/view_1.jpg | height=350)
-![](src/assets/screenshots/view_2.jpg | height=350)
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_1.jpg" height="350">
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_2.jpg" height="350">
 
 2. Card back view
-![](src/assets/screenshots/view_3.jpg | height=350)
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_3.jpg" height="350">
 
 3. Taranscation filter
-![](src/assets/screenshots/view_4.jpg | height=350)
-![](src/assets/screenshots/view_5.jpg | height=350)
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_4.jpg" height="350">
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_5.jpg" height="350">
 
 4. Statistic tab view
-![](src/assets/screenshots/view_6.jpg | height=350)
-![](src/assets/screenshots/view_7.jpg | height=350)
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_6.jpg" height="350">
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_7.jpg" height="350">
 
 5. Expense breakdown
-![](src/assets/screenshots/view_8.jpg | height=350)
+<img src="https://github.com/ravisoni3415/expense-calculator/blob/master/src/assets/screenshots/view_8.jpg" height="350">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
