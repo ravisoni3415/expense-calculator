@@ -1,6 +1,6 @@
 # ExpenseCalculator
 
-Project stack : Angular 12, Typescript, Bootstrap 5, amChart.
+Project stack : Angular 12, Typescript, HTML5, SCSS, Bootstrap 5, amChart.
 
 **Live demo here 👉 https://expense-calculator3415.netlify.app/ **
 
